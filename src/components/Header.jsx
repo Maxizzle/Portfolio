@@ -7,7 +7,9 @@ export default class Header extends Component {
             <div className="header">
                 <h1>Welcome to my portfolio</h1>
                 <img src={profile} alt=''/>
-                <p>I'm a junior Web developer located in the greater new york city area</p>
+                <p>I'm a junior Web developer located in the greater new york city area. baldfb bsdbvbfdv  bfvbfdv bvsbvk.vf hlahdgh ua uhrahrgvb. lasbfklv dfhfhksjf hsdfhguhvnure lsuhrges uhgels hegelshbv lshegjirnvrin</p>
+               
+                <p>I'm a junior Web developer located in the greater new york city area. baldfb bsdbvbfdv  bfvbfdv bvsbvk.vf hlahdgh ua uhrahrgvb. lasbfklv dfhfhksjf hsdfhguhvnure lsuhrges uhgels hegelshbv lshegjirnvrin</p>
             </div>
         )
     }

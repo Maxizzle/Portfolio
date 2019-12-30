@@ -14,7 +14,7 @@ import node from '../images/icons-nodejs-96.png'
 const About = () => {
     return (
         <div className='about'>
-            
+            <h2>Skills and Tools</h2>
             <div className='icons'>
                 <img src={html} alt="" />
                 <p>HTML</p>
