@@ -1,16 +1,105 @@
 .nav{
-  /* background-color: blue ; */
-  
+  border: 1px solid black;
+  background-color: black;
+  height: 10vh;
+
 }
 
 .nav ul{
+  color: grey;
   display: flex;
   justify-content: space-evenly;
+  font-weight: 600;
   
 }
 
-.about .icons{
+.header{
   display: flex;
-  align-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid black; */
 }
+
+.header h1{
+  
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.header img{
+  width: 30%;
+  border-radius: 55% ;
+
+}
+
+.about .icons{
+
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.about .icons img{
+  width: 98px;
+}
+
+
+/* .about .icons img{
+
+box-shadow: 10px 10px 5px grey;
+
+} */
