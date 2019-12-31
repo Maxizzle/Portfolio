@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Nav extends Component {
-    render() {
+const Nav = () => {
         return (
             <div className="nav">
                 <ul>
@@ -11,5 +10,5 @@ export default class Nav extends Component {
                 </ul>
             </div>
         )
-    }
 }
+export default Nav

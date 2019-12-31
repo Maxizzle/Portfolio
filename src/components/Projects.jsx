@@ -2,9 +2,20 @@ import React from 'react'
 import move from '../images/movescreenshot.png'
 
 const Projects = () => {
-    return(
+    return (
         <div className='projects'>
-           <img src={move} alt=""/> 
+            {/* <div className='pr1'> */}
+                <img src={move} alt="" />
+            {/* </div> */}
+            {/* <div className='pr2'> */}
+                <img src={move} alt="" />
+            {/* </div> */}
+            {/* <div className='pr3'>
+                <img src={move} alt="" />
+            </div>
+            <div className='pr4'>
+                <img src={move} alt="" />
+            </div> */}
         </div>
     )
 }
