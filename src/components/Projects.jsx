@@ -3,7 +3,9 @@ import move from '../images/movescreenshot.png'
 
 const Projects = () => {
     return (
-        <div className='projects'>
+        <div className='projects-container'>
+                    <h2>Projects</h2>
+                    <div className='projects'>
             {/* <div className='pr1'> */}
                 <img src={move} alt="" />
             {/* </div> */}
@@ -16,6 +18,7 @@ const Projects = () => {
             <div className='pr4'>
                 <img src={move} alt="" />
             </div> */}
+            </div>
         </div>
     )
 }

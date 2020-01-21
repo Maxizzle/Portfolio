@@ -1,9 +1,8 @@
 .nav{
   overflow: hidden;
-  border: 1px solid black;
-  background-color: black;
+  /* border: 1px solid black; */
+  /* background-color: #19364a; */
   height: 10vh;
-  text-decoration: none;
   position: fixed;
   top: 0;
   width: 100%;
@@ -12,25 +11,53 @@
 }
 
 .nav ul{
-  color: white;
+  color: black;
   display: flex;
   justify-content: space-evenly;
-  font-weight: 700;
+  font-family: 'B612 Mono', monospace;
+  font-weight: 100;
   
 }
 
+.nav:hover {
+  
+  background-color: #397ba6;
+
+}
+
 .header{
+  background: url("./images/Portfolio_hero.png") repeat 0 0;
+  background-size: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 65px;
   /* border: 3px solid purple; */
-  margin-bottom: 5%;
-  margin-top: 10%;
-  
+  /* margin-bottom: 5%; */
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+	color: #fff;
+	/* background: linear-gradient(-90deg, #53baff, #397ba6, #23a6d5); */
+	 /* background-size: 400% 400%; */
+   animation: gradientBG 40s ease infinite; 
+
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .header h1{
+  font-family: 'B612 Mono', monospace;
+  font-weight: 100;
   
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
             animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -63,12 +90,14 @@
 }
 
 .header img{
+  /* border: 2px solid red; */
   width: 30%;
-  border-radius: 55% ;
-
+  /* margin-top: -30px; */
+  
 }
 
 .header p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   
 }
@@ -78,13 +107,18 @@
   margin-bottom: 10%;
   
 }
+.about:hover .icons{
+
+}
 
 .about .icons{
-
+  font-family: 'B612 Mono', monospace;
+  font-weight: 100;
   /* border: 1px solid red; */
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  background-color: #346e94;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -121,10 +155,15 @@
 .about .icons img{
 
   width: 86px;
+
+}
+
+.projects-container h2{
+  text-align: center;
 }
 
 .projects{
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -138,13 +177,16 @@
 }
 
 .footer {
-  background-color: black;
+  color: white;
+  background-color: #19364a;
   height: 150px;
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   text-transform: none;
   font-family: "HelveticaNeue-CondensedBold";
+  font-weight: 700;
 }
 
 /* .about .icons img{
