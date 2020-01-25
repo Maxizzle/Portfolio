@@ -1,7 +1,7 @@
 .nav{
   overflow: hidden;
+  background-color: #fff;
   /* border: 1px solid black; */
-  /* background-color: #19364a; */
   height: 10vh;
   position: fixed;
   top: 0;
@@ -19,11 +19,24 @@
   
 }
 
-.nav:hover {
-  
-  background-color: #397ba6;
+.about-me:hover  {
+  text-underline-position: below;
+  color:#3f51b5;
 
 }
+
+.pro:hover  {
+  
+  color: #3f51b5;
+
+}
+.contacts:hover  {
+  
+  color: #3f51b5;
+
+}
+
+
 
 .header{
   background: url("./images/Portfolio_hero.png") repeat 0 0;
@@ -31,15 +44,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 65px;
+  margin-top: 75px;
   /* border: 3px solid purple; */
-  /* margin-bottom: 5%; */
-  font-family: "Exo", sans-serif;
   font-size: 20px;
-  font-weight: 600;
 	color: #fff;
-	/* background: linear-gradient(-90deg, #53baff, #397ba6, #23a6d5); */
-	 /* background-size: 400% 400%; */
    animation: gradientBG 40s ease infinite; 
 
 }
@@ -88,11 +96,11 @@
     opacity: 1;
   }
 }
-
+ 
 .header img{
-  /* border: 2px solid red; */
-  width: 30%;
-  /* margin-top: -30px; */
+ margin: auto;
+ position: relative;
+ bottom: 3em;
   
 }
 
@@ -118,7 +126,6 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: #346e94;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -153,40 +160,49 @@
 }
 
 .about .icons img{
-
-  width: 86px;
+  margin-top: 15px;
+  width: 85px;
 
 }
 
-.projects-container h2{
+.projects-container{
+  /* border: 2px solid red; */
   text-align: center;
-}
-
-.projects{
-  border: 2px solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #F5F5F5;
+  background-color: black;
+  color: #fff;
   
 }
 
-.projects img{
-  width: 15%;
+.projects-container img{
+  width: 25%;
   
 }
+
+/* .projects-container .sunglass{
+  margin-bottom: 25px;
+} */
 
 .footer {
   color: white;
-  background-color: #19364a;
+  background-color: #0da5da;
   height: 150px;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-transform: none;
   font-family: "HelveticaNeue-CondensedBold";
   font-weight: 700;
+}
+
+.footer img{
+  width: 40px;
+  height: 40px;
+  margin-bottom:10px;
+  justify-content: space-around;
 }
 
 /* .about .icons img{
