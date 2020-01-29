@@ -6,25 +6,21 @@ import sunglass from '../images/sunglass.png'
 const Projects = () => {
     return (
         <div className='projects-container'>
-                    <h2>Projects</h2>
-                    
-                    <div className='sunglass'>
-                    <img src={sunglass} alt="" />
+            <h2>Projects</h2>
+
+            <div className='sunglass'>
+                <a href={'https://github.com/Maxizzle/SunglassHouse'}><img src={sunglass} alt="" /></a>
                 <h3>My first project was built after 2 weeks in the immersive program using basic html , css and javascript to create an e-commerce website.  </h3>
             </div>
 
             <div className='move'>
-                <img src={move} alt="" />
+                <a href={'https://github.com/Maxizzle/MoveApp'}><img src={move} alt="" /></a>
                 <h3> For my second project in week six of the immersive, using React.js I Build a mobile app called Move. Design to promote healthy living through working out </h3>
             </div>
-                    <div className='eyesahyt'>
-                <img src={eyesahyt} alt="" />
+            <div className='eyesahyt'>
+                <a href={'https://github.com/Maxizzle/EyeSahyt'}><img src={eyesahyt} alt="" /></a>
                 <h3>Fourth project is an e-commerce  built with React and Ruby on Rails using CRUD functionalities.
                 It's design to give a platform to local business owners who wants to promote their locations online </h3>
-            </div>
-          
-
-            <div className='projects'>
             </div>
         </div>
     )
