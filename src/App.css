@@ -122,7 +122,6 @@
 .about .icons{
   font-family: 'B612 Mono', monospace;
   font-weight: 100;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -166,29 +165,43 @@
 }
 
 .projects-container{
-  /* border: 2px solid red; */
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.872);
   color: #fff;
   
-}
-
-.projects-container img{
-  width: 25%;
   
 }
 
-/* .projects-container .sunglass{
-  margin-bottom: 25px;
-} */
+.projects-container .sunglass img{
+  width: 30%;
+  height: 85%;
+  
+}
+.projects-container .move img{
+  width: 30%;
+  height: 55%;
+  margin-top: 5%;
+
+  
+}
+.projects-container .eyesahyt{
+  margin-bottom: 60px;
+}
+
+.projects-container .eyesahyt img{
+  width: 30%;
+  height: 85%;
+  margin-bottom: 30px;
+  
+}
 
 .footer {
   color: white;
   background-color: #0da5da;
-  height: 150px;
+  height: 250px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -202,11 +215,6 @@
   width: 40px;
   height: 40px;
   margin-bottom:10px;
-  justify-content: space-around;
+  justify-content: space-between;
+
 }
-
-/* .about .icons img{
-
-box-shadow: 10px 10px 5px grey;
-
-} */
