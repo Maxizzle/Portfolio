@@ -13,7 +13,15 @@ import node from '../images/icons-nodejs-96.png'
 
 const About = () => {
     return (
-        <div className='about'>
+        <div className='about' id='about'>
+            <h4>I am a Software engineer with a background in retail and management. Retail has
+taught me the value of customer service and management taught me how to
+connect with people and meet deadlines in an organized fashion. That is why I
+became a developer, I believe creating and developing applications that help
+solve the customer's needs while enhancing their experience altogether is
+fundamental and crucial to promoting growth . These traits have become almost
+a default setting in my programming style.</h4>
+
             <h2>Skills and Tools</h2>
             <div className='icons'>
                 <img src={html} alt="" />

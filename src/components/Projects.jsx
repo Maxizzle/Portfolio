@@ -5,7 +5,7 @@ import sunglass from '../images/sunglass.png'
 
 const Projects = () => {
     return (
-        <div className='projects-container'>
+        <div className='projects-container' id='projects'>
             <h2>Projects</h2>
 
             <div className='sunglass'>
