@@ -196,7 +196,7 @@
 
 .projects-container .sunglass img{
   width: 30%;
-  height: 85%;
+  height: 80%;
   
 }
 .projects-container .move img{
@@ -217,6 +217,28 @@
   
 }
 
+.projects-container button{
+  border-radius: 4px;
+  height: 30px;
+  width: 80px;
+  background-color: #da1b0d;
+  border-color:#da1b0d;
+  
+}
+
+.projects-container button:hover{
+  background-color:black ;
+  border: black;
+}
+
+.projects-container a{
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+
+}
+
+
 .footer {
   color: white;
   background-color: #0da5da;
@@ -225,8 +247,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   text-transform: none;
-  font-family: "HelveticaNeue-CondensedBold";
+  /* font-family: "HelveticaNeue-CondensedBold"; */
+  font-family: 'B612 Mono', monospace;
   font-weight: 700;
 }
 
@@ -234,6 +258,12 @@
   width: 40px;
   height: 40px;
   margin-bottom:10px;
-  justify-content: space-between;
 
+}
+
+@media(max-width:740px) {
+.projects-container{
+  display: flex;
+  flex-direction: column;
+}
 }
