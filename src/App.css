@@ -25,22 +25,17 @@
   
 }
 
-.about-me:hover  {
+.nav a{
+  text-decoration: none;
+  color: #0da5da;
+}
+
+/* .about-me:hover  {
   text-underline-position: below;
   color:#3f51b5;
 
-}
+} */
 
-.pro:hover  {
-  
-  color: #3f51b5;
-
-}
-.contacts:hover  {
-  
-  color: #3f51b5;
-
-}
 
 
 
@@ -111,14 +106,12 @@
 }
 
 .header p{
-  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   text-align: center;
   
 }
 
 .about{
   font-family: 'B612 Mono', monospace;
-  /* border: 2px solid green; */
   margin-bottom: 10%;
   
 }
@@ -128,15 +121,11 @@
 }
 
 .about h2{
-  /* border: 2px solid green; */
   margin-top: 75px;
 }
-/* .about:hover .icons{
 
-} */
 
 .about .icons{
-  /* border: 2px solid blue; */
   margin-top: 7%;
   font-family: 'B612 Mono', monospace;
   font-weight: 100;
@@ -247,9 +236,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   text-transform: none;
-  /* font-family: "HelveticaNeue-CondensedBold"; */
   font-family: 'B612 Mono', monospace;
   font-weight: 700;
 }
@@ -257,9 +245,16 @@
 .footer img{
   width: 40px;
   height: 40px;
-  margin-bottom:10px;
-
+  padding: 20px;
+  justify-content: space-evenly;
+  
 }
+
+/* .footer:hover img{
+  background-image: white;
+} */
+
+
 
 @media(max-width:740px) {
 .projects-container{

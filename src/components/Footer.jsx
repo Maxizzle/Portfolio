@@ -19,12 +19,3 @@ import email from '../images/email.png'
    )
 }
 export default Footer
-
-{/* <div className='footer'>
-<h3>Contacts</h3>
-
-<a href=“mailto:hadeeqasaman95@gmail.com”>
-         
-     </a>
-
-</div> */}
