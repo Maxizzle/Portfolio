@@ -7,7 +7,7 @@
   overflow: hidden;
   background-color: #fff;
   /* border: 1px solid black; */
-  height: 10vh;
+  height: 9vh;
   position: fixed;
   top: 0;
   width: 100%;
@@ -20,7 +20,7 @@
   color: black;
   display: flex;
   justify-content: space-evenly;
-  /* font-family: 'B612 Mono', monospace; */
+  margin-top: 30px;
   font-weight: 100;
   
 }
