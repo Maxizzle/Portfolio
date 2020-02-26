@@ -28,6 +28,11 @@
 .nav a{
   text-decoration: none;
   color: #0da5da;
+  top: 20px;
+}
+
+.nav .about-me .projects a{
+  top: 15px;
 }
 
 /* .about-me:hover  {
@@ -112,7 +117,7 @@
 
 .about{
   font-family: 'B612 Mono', monospace;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   
 }
 .about h4{
@@ -121,12 +126,13 @@
 }
 
 .about h2{
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 
 .about .icons{
-  margin-top: 7%;
+  /* border: 2px solid blueviolet; */
+  margin-top: 3%;
   font-family: 'B612 Mono', monospace;
   font-weight: 100;
   display: flex;
@@ -168,7 +174,7 @@
 .about .icons img{
   margin-top: 15px;
   width: 85px;
-
+  
 }
 
 .projects-container{
@@ -179,8 +185,8 @@
   justify-content: space-around;
   background-color: rgba(0, 0, 0, 0.872);
   color: #fff;
-  
-  
+  /* border: 2px solid red; */
+  top: 0;
 }
 
 .projects-container .sunglass img{

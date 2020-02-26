@@ -24,17 +24,19 @@ a default setting in my programming style.</h4>
 
             <h2>Skills and Tools</h2>
             <div className='icons'>
-                <img src={html} alt="" />
+                
                 <p>HTML</p>
-
-                <img src={css} alt="" />
+                <img src={html} alt="" />
+                
                 <p>CSS</p>
-
-                <img src={js} alt="" />
+                <img src={css} alt="" />
+                
                 <p>JavaScript</p>
-
-                <img src={react} alt="" />
+                <img src={js} alt="" />
+                
                 <p>React.js</p>
+                <img src={react} alt="" />
+                
 
                 <img src={postgres} alt="" />
                 <p>Express.js</p>

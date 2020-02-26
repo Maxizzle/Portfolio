@@ -6,7 +6,7 @@ import sunglass from '../images/sunglass.png'
 const Projects = () => {
     return (
         <div className='projects-container' id='projects'>
-            <h2>Projects</h2>
+            <h1>Projects</h1>
 
             <div className='sunglass'>
                 <a href={'https://github.com/Maxizzle/SunglassHouse'}><img src={sunglass} alt="" /></a>
